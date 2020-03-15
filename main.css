@@ -1,0 +1,16 @@
+
+section {
+    text-align: center;
+}
+
+h1 {
+    background: #383737;
+    color: white;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.p-font {
+    font-size: 1.5em;
+}
