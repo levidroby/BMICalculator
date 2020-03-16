@@ -1,6 +1,12 @@
-
 section {
     text-align: center;
+    /* border: 5px solid white; */
+}
+
+#calcSec {
+    float: left;
+    padding-left: 31%;
+    padding-top: 20px;
 }
 
 h1 {
@@ -13,4 +19,22 @@ h1 {
 
 .p-font {
     font-size: 1.5em;
+}
+
+table {
+    float: right;
+    display: inline;
+    font-size: 1.7em;
+    margin-right: 30%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
 }

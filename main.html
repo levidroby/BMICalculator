@@ -33,20 +33,46 @@
         <h1 class="display-3">BMI Calculator</h1>
         <p class="lead">Body Mass Index (BMI) is a measure of body fat based on a person's weight and height.</p>
 
-        <button class="btn btn-warning btn-lg" id="imperial">Imperial</button>
-        <button class="btn btn-warning btn-lg" id="metric">Metric</button>
+        <section id="calcSec">
+            <button class="btn btn-warning btn-lg" id="imperial">Imperial</button>
+            <button class="btn btn-warning btn-lg" id="metric">Metric</button>
 
-        <div id="testDiv" class="pt-4">
-            <p id="weightIn" class="p-font">Weight in pounds:</p>
-            <input id="weight" type="number">
-            <p id="heightIn" class="p-font">Height in inches:</p>
-            <input id="height" type="number">
-        </div>
-        <div class="pt-3">
-            <button class="btn btn-warning btn-lg" id="calc">Calculate</button>
-        </div>
+            <div id="testDiv" class="pt-4">
+                <p id="weightIn" class="p-font">Weight in pounds:</p>
+                <input id="weight" type="number">
+                <p id="heightIn" class="p-font">Height in inches:</p>
+                <input id="height" type="number">
+            </div>
+            <div class="pt-3">
+                <button class="btn btn-warning btn-lg" id="calc">Calculate</button>
+            </div>
 
-        <p class="pt-4 p-font">Your BMI: <span id="bmi">0</span></p>
+            <p class="pt-4 p-font">Your BMI: <span id="bmi">0</span></p>
+
+        </section>
+
+        <table>
+            <tr>
+                <th>BMI</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>< 18.5</td>
+                <td>Underweight</td>
+            </tr>
+            <tr>
+                <td>18.5 - 24.9</td>
+                <td>Normal weight</td>
+            </tr>
+            <tr>
+                <td>25 - 29.9</td>
+                <td>Overweight</td>
+            </tr>
+            <tr>
+                <td>> 30</td>
+                <td>Obesity</td>
+            </tr>
+        </table>
         
     </section>
 
